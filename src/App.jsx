@@ -28,7 +28,7 @@ const App = () => {
         <Route path='/privacy' element={<MainLayout><PrivacyPolicy/></MainLayout>} />
         <Route path='/Faqs' element={<MainLayout><Faqs/></MainLayout>} />
         <Route path='/About' element={<MainLayout><About/></MainLayout>} />
-        <Route path='/chat-modal' element={<MainLayout><ChatModal/></MainLayout>} />
+        {/* <Route path='/chat-modal' element={<MainLayout><ChatModal/></MainLayout>} /> */}
         
       
 
