@@ -5,7 +5,6 @@ import Navbar from '../Navbar'
 import Calculator from '../Calculator'
 import GetProsper from '../GetProsper'
 import Footer from '../Footer'
-// import Header from '../Header'
 
 const LandingPage = () => {
   return (
