@@ -1,12 +1,12 @@
 import React from "react";
 // import { FaSave } from "react-icons/fa";
-import { Fade, Zoom } from "react-reveal";
+
 
 const Middle = () => {
   return (
     <section className="bg-white py-12 px-14 md:flex-1 hidden lg:block ">
       <div className="text-center">
-        <Fade up>
+        
           <h1 className="text-purple-600 text-5xl mb-4 font-extrabold">
             Our Products{" "}
           </h1>
@@ -16,7 +16,7 @@ const Middle = () => {
             facets. Prospera provides a variety of saving products to help users
             choose how best they want to beat inflation, save and invest .{" "}
           </p>
-        </Fade>
+        
       </div>
 
       <div className="w-full ">

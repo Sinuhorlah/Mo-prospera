@@ -3,7 +3,6 @@ import iphonemockup from "../assets/iphonemockup.png"
 import googlePlayBadge from '../assets/google-play-badge.png';
 import appStoreBadge from '../assets/app-store-badge.png';
 import Bgpicture from '../assets/Newbg.jpg'; 
-import { Fade, Zoom } from "react-reveal";
 import Wheat from "./Wheat";
 import Header from "./Header";
 import ResponsiveNavBar from "./ResponsiveNabBar/ResponsiveNavBar";
@@ -23,7 +22,7 @@ const Body = () =>{
     <div className="container mx-auto flex flex-wrap flex-col lg:flex-row items-center justify-between relative z-10">
 
       <div className="lg:w-1/2 text-center lg:text-left px-20 pb-40">
-        <Fade up>
+        
         <h1 className="text-5xl font-bold mb-6 leading-tight">
           {/* Save Now, <br /> Secure Tomorrow <TypeAnimation sequence={[
             'Outpace Inflation!!',
@@ -38,7 +37,7 @@ const Body = () =>{
            />  */}
           Save  and Earn, <br />  20% APY Of Your Investment <br />
         </h1>
-        </Fade>
+        
         <p className="text-lg mb-8  text-1xl ">
           Prospera empowers Nigerians to outpace inflation <br /> with high yield savings and investment solutions.
         </p>
@@ -47,11 +46,11 @@ const Body = () =>{
           <img src={appStoreBadge} alt="App Store" className="h-12" />
         </div>
       </div>
-     <Zoom out>
+     
      <div className="w-full flex-1 flex-wrap gap-10 ml-44 pb-25 mt-20 ">
         <img src={iphonemockup} alt="Mobile App" className="w-72  " />
       </div>
-     </Zoom>
+     
     </div>
   </section>
    <div className="lg:hidden block bg-purple-600">

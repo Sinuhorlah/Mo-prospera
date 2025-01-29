@@ -2,7 +2,7 @@
 import { FaMarker } from 'react-icons/fa';
 import Save from '../assets/Save.svg'
 import { FaCircleCheck, FaHeartCircleCheck, FaMarkdown } from 'react-icons/fa6';
-import { useLocation } from 'react-router-dom';
+
 import { useEffect, useState } from 'react';
 
 const Navbar = () => {

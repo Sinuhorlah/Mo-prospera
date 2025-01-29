@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fade, Zoom } from 'react-reveal'
 import iphonemockup from "../assets/Mockups 1.png"
 import googlePlayBadge from '../assets/google-play-badge.png';
 import appStoreBadge from '../assets/app-store-badge.png';
@@ -10,12 +9,12 @@ const GetProsper = () => {
     <div className='flex flex-wrap justify-between  items-center  bg-cover px-14'
     style={{backgroundImage: `url(${Bgpicture})`}}>
         <div className="lg:w-1/2 text-center lg:text-left pt-40 px-12">
-        <Fade up>
+        
         <h1 className="text-5xl font-bold mb-6 leading-tight">
         Get the Prospera <br />
         App Today!
         </h1>
-        </Fade>
+        
         <p className="text-lg mb-8  text-1xl">
           Prospera empowers Nigerians to outpace inflation <br /> with high yield savings and investment solutions.
         </p>
@@ -24,11 +23,11 @@ const GetProsper = () => {
           <img src={appStoreBadge} alt="App Store" className="h-12" />
         </div>
       </div>
-      <Zoom out>
+      
      <div className="w-full flex-1 flex-wrap gap-10 ml-14 pt-12">
         <img src={iphonemockup} alt="Mobile App" className="w-96  " />
       </div>
-     </Zoom>
+     
     </div>
   )
 }
