@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import ChatModal from "../chatmodal";
 
 const faqs = [
   {
@@ -50,11 +49,6 @@ const faqs = [
 const FAQSection = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
-
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
@@ -76,7 +70,7 @@ const FAQSection = () => {
                 Chat to us.
               </span>
             </p>
-            <ChatModal isOpen={isModalOpen} onClose={closeModal} />
+            {/* <ChatModal isOpen={isModalOpen} onClose={closeModal} /> */}
           </div>
 
           <div className="w-full md:w-2/3 space-y-4">
